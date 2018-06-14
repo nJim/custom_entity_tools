@@ -1,0 +1,14 @@
+{
+  "name": "drupal/custom_entity_tools",
+  "type": "drupal-module",
+  "description": "Boilerplate, scripts, and supporting files to generate custom entities. I use this module to make sure all of my custom entities follow the same set of standards.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/nJim/custom_entity_tools/issues",
+    "source": "https://github.com/nJim/custom_entity_tools.git"
+  },
+  "require": { }
+}
+

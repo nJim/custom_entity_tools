@@ -1,0 +1,5 @@
+name: 'Custom Entity Tools'
+type: module
+description: 'Collection of tools and scripts for creating custom entities.'
+core: 8.x
+package: 'Custom'

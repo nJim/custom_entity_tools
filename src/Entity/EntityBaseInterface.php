@@ -124,12 +124,12 @@ interface EntityBaseInterface extends ContentEntityInterface, RevisionLogInterfa
    * Build a string to represent the entity in permission keys.
    *
    * For entities without bundles, the permissions key is the entityTypeId.
-   * For entities with bundles, the permissions key is the concatination of
+   * For entities with bundles, the permissions key is the concatenation of
    * the entityTypeId and the bundle name.
    *
-   * Example: 'program' entities return 'program' since there is no bundles.
-   * Example: 'badge' entities are a bundle of 'aside entities' and return
-   *   the permissions key 'aside entities badge'.
+   * Example: 'user' entities return 'user' since there is no bundles.
+   * Example: 'article' entities are a bundle of 'node' and return
+   *   the permissions key 'node entities article'.
    *
    * @return string
    *   A string that follows the permissions naming convention for the entity.

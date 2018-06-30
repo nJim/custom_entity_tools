@@ -29,8 +29,8 @@ abstract class EntityBasePermissions {
    * entities with bundles (though configuration entity interfaces) and without
    * bundles (though content entity interfaces).
    *
-   * For example: The 'Program' entity type has no bundles, so permissions would
-   * be set only for the 'Program' entity. But the 'Node' entity type has a
+   * For example: The 'User' entity type has no bundles, so permissions would
+   * be set only for the 'User' entity. But the 'Node' entity type has a
    * bundle type of 'NodeType'. All bundles would be loaded for this bundle
    * type and permissions set for each one (page, article, story, etc.)
    *

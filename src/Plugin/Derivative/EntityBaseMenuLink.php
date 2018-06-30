@@ -62,13 +62,14 @@ class EntityBaseMenuLink extends DeriverBase implements ContainerDeriverInterfac
    * Returns the definition of all derivatives of the menu link plugin.
    *
    * There is a lot of lingo to describe drupal entities and bundles. Use the
-   * following comment as a cheat sheet of expected values for the aside entity:
-   *   $entityTypeId = 'aside'
-   *   $label = 'Aside'
-   *   $plural = 'Asides
-   *   $bundleEntityTypeId = 'aside_type'
-   *   $bundleLabel = 'Badge'
-   *   $bundleId = 'badge'
+   * following comment as a cheat sheet of expected values for the anima entity:
+   *   $entityTypeId = 'bird'
+   *   $label = 'Bird'
+   *   $label = 'Bird'
+   *   $plural = 'Birds
+   *   $bundleEntityTypeId = 'bird_type'
+   *   $bundleLabel = 'Eagle'
+   *   $bundleId = 'eagle'
    *
    * @param mixed $base_plugin_definition
    *   The definition of the base plugin from which the derivative plugin
